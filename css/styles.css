@@ -1,17 +1,30 @@
+
+/* Global Styling */
+
 html, body {
   font-family: 'Playfair Display', serif;
   background-color: #f1f1f1;
 }
 
-
 p {
   font-size: 16px;
 }
+
+/* Parallax Styling */
 
 .parallax {
   position: absolute;
 }
 
+span.headline {
+  font-size: 4em;
+  line-height: 2em;
+  position: absolute;
+  display: block;
+}
+
+
+/* Lyrics Styling */
 
 .lyrics {
   width: 80%;
@@ -29,13 +42,6 @@ p {
 
 .lyrics p:nth-child(2n + 1) {
   text-align: right;
-}
-
-span.headline {
-  font-size: 4em;
-  line-height: 2em;
-  position: absolute;
-  display: block;
 }
 
 .right {
@@ -58,5 +64,4 @@ p.credit {
   font-size: 1.25em;
   text-transform: lowercase;
   text-align: center;
-
 }
