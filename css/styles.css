@@ -1,0 +1,62 @@
+html, body {
+  font-family: 'Playfair Display', serif;
+  background-color: #f1f1f1;
+}
+
+
+p {
+  font-size: 16px;
+}
+
+.parallax {
+  position: absolute;
+}
+
+
+.lyrics {
+  width: 80%;
+  margin: 20px auto;
+}
+
+.lyrics p + * {
+  margin-top: 20em;
+}
+.lyrics p {
+  font-size: 2em;
+  line-height: 1.5em;
+  text-transform: lowercase;
+}
+
+.lyrics p:nth-child(2n + 1) {
+  text-align: right;
+}
+
+span.headline {
+  font-size: 4em;
+  line-height: 2em;
+  position: absolute;
+  display: block;
+}
+
+.right {
+  right: 10%;
+}
+
+span.black {
+  background-color: #FFF;
+  color: #000;
+  padding: 0 5px;
+}
+
+span.white {
+  background-color: #000;
+  color: #FFF;
+  padding: 0 5px;
+}
+
+p.credit {
+  font-size: 1.25em;
+  text-transform: lowercase;
+  text-align: center;
+
+}
